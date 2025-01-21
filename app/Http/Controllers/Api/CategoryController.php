@@ -10,7 +10,7 @@ class CategoryController extends Controller
     public function index()
     {
         return response()->json([
-            'status' => 200,
+            'status' => SUCCESS,
             'message' => 'Welcome to Laravel API Development!',
         ]);
     }
@@ -24,6 +24,7 @@ class CategoryController extends Controller
     {
         return response()->json([
             'form_requests' => $request->all(),
+            'status' => CREATED,
         ]);
     }
 

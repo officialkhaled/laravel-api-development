@@ -5,6 +5,7 @@ use App\Models\User;
 use Illuminate\Contracts\Auth\Authenticatable;
 
 const SUCCESS = 200;
+const CREATED = 201;
 const FAIL = 500;
 
 const ACTIVE = 1;
