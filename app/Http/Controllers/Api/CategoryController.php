@@ -24,6 +24,7 @@ class CategoryController extends Controller
     {
         return response()->json([
             'form_requests' => $request->all(),
+            'status' => CREATED,
         ]);
     }
 
